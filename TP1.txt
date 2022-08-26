@@ -1,0 +1,2 @@
+Ciclo while como si fuera una tickeadora de una caja de supermercado, donde cada vez que pasa un producto y tipea el precio, suma.
+Cuando la cajera ve que no quedan mas productos, (en este caso tipea -1) y tira el total.
