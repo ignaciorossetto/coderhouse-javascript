@@ -166,6 +166,7 @@ const envioGratis = 20000;
 const modalBodyHtml = document.getElementById("modalBody");
 const modalBtn = document.getElementById("modalBtn");
 const productGridHtml = document.getElementById("products_grid");
+const numeroCarritoIcon = document.getElementById('carritoCount')
 
 
 // CREACION DE CLASE PRODUCTOS Y SUS METODOS.
@@ -268,6 +269,12 @@ const carritoTotalPrice = () => {
   return totalPrice;
 };
 
+const carritoTotalQuantity= () => {
+  let contador = 0
+  carrito.forEach((value) => contador += value.shopBag)
+  return contador
+  }
+
 const checkFreeShipping = () => {
   const totalPrice = carritoTotalPrice();
   if (totalPrice >= envioGratis) {
@@ -298,6 +305,7 @@ const eliminarProductoCarrito = (id) => {
 // DISPLAY WEBAPP PRODUCTOS
 
 const displayProducts = () => {
+  numeroCarritoIcon.innerHTML = carritoTotalQuantity()
   productGridHtml.innerHTML = "";
   products.forEach((product) => {
     const avaliableProduct = product.checkAvailability()
@@ -323,7 +331,10 @@ const displayProducts = () => {
       </div>
       </div>`;
   });
+
 };
+
+
 
 
 const displayCarrito = () => {
@@ -395,10 +406,11 @@ const displayCarrito = () => {
 
 modalBtn.addEventListener("click", displayCarrito);
 
-  // eliminar carrito completo
 
 
 displayProducts()
+
+
 
 
 

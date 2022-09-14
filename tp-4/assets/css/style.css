@@ -102,7 +102,7 @@ a:hover {
 
 .header__nav__menu {
   width: auto;
-  height: auto;
+  height: 40px;
   padding: 7px;
   display: flex;
 }
@@ -147,6 +147,22 @@ a:hover {
   transition: 0.3s;
   font-weight: 1000;
   opacity: 1;
+}
+
+.carritoIcon {
+  position: relative;
+  top: 5px;
+}
+
+.carritoCount {
+  background-color: pink;
+  border-radius: 30px;
+  font-size: small;
+  padding: 3px;
+  z-index: 2;
+  position: relative;
+  top: -5px;
+  right: -5px;
 }
 
 .header__nav__menu li a {
