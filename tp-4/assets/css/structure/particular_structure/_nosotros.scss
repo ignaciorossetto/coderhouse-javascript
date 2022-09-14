@@ -1,0 +1,58 @@
+.nosotros__main {
+    display: grid;
+    grid-template-areas: "title title"
+        "img1 img2";
+    justify-items: center;
+    grid-gap: 20px;
+
+}
+
+.nosotros__main__img1 {
+    display: flex;
+    align-items: center;
+    background-image: url("../multimedia/galeria/bordado.jpg");
+    background-size: cover;
+    background-position: bottom;
+    grid-area: img1;
+    height: 500px;
+    border-radius: 15px;
+
+}
+
+.nosotros__main__img2 {
+    display: flex;
+    align-items: center;
+    background-image: url("../multimedia/galeria/bordado1.jpg");
+    background-size: cover;
+    background-position: bottom;
+    grid-area: img2;
+    height: 500px;
+    border-radius: 15px;
+
+
+}
+
+.nosotros__main__img__container {
+    background-color: rgba(255, 255, 255, 0.703);
+    margin: 50px;
+    overflow: wrap;
+
+
+}
+
+.nosotros__main__img__container__title {
+    margin-left: 35px;
+    font-weight: lighter;
+    grid-area: title;
+    justify-content: center;
+}
+
+.nosotros__main__img__container__p {
+    margin: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-indent: 1%;
+    font-weight: 800;
+    overflow: wrap;
+
+}
