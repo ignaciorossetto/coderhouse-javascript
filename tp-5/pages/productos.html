@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Almohadones, bolsos, sobres y pies de cama hechos a mano. Ventas al por mayor, menor al mercado local e internacional. En esta seccion, almohadones, encontraras todos nuestros modelos de almohadones disponibles.">
+    <meta name="keywords" content="Bordado a mano, Bordados, Almohadones hechos a mano, productos de diseño argentino, productos hechos a mano, diseño hecho a mano, artesanos argentinos, karam hecho a mano">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Almohadones</title>
+</head>
+
+<body>
+    <header class="header">
+        <p class="header__p">Envios gratis a partir de $20.000</p>
+
+        <h1 class="header__mainTitle">Karam Hecho a Mano</h1>
+        <div class="responsive_header_maintitle_navbar">
+            <h1 class="header__mainTitle__responsive ">KARAM</h1>
+
+            
+            <nav id="responsive-navbar-sm">
+                <nav class="navbar navbar-expand-xxl">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsibleNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                            <ul class="navbar-nav">
+                                <li><a href="./index.html">Home</a></li>
+                                <li><a href="./nosotros.html">Nosotros</a></li>
+                                <li><a href="./productosmenu.html">Productos</a></li>
+                                
+                                <li><a href="./contacto.html">Contacto</a></li>
+                                <li id="collapse-navbar-sm-shopbag"><a href="#">
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn shopbag-btn" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal" >
+                                            <i class="fa-solid fa-bag-shopping"></i>
+                                        </button>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Carrito</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </nav>
+        </div>
+
+
+        <nav class="header__nav" id="responsive-navbar">
+            <ul class="header__nav__menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" href="./productosmenu.html">Productos</a>
+                    <ul class="header__nav__menu__menu dropdown-menu">
+                        <li class="header__nav__menu__menu__item1 dropdown-item"><a
+                                href="./productos.html?category=Almohadon ">Almohadones</a></li>
+                        <li class="header__nav__menu__menu__item2 dropdown-item"><a
+                                href="./productos.html?category=Bolso">Bolsos</a></li>
+                        <li class="header__nav__menu__menu__item3 dropdown-item"><a
+                                href="./productos.html?category=Ropadecama">Ropa de
+                                cama</a></li>
+                    </ul>
+                </li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="#">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn shopbag-btn" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal1" id="modalBtn">
+                            <i class="fa-solid fa-bag-shopping carritoIcon">
+                                <p  id="carritoCount" class="carritoCount"></p>
+                            </i>
+                        </button>
+                    </a>
+                </li>
+            </ul>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel1">Carrito</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body" id="modalBody">
+                                        
+                        </div>
+                    
+            
+        </nav>
+
+
+    </header>
+    
+    <div class="dropdown filtro-productos d-flex">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+          Filtra por tipo de producto!
+        </button>
+        <ul class="dropdown-menu" id="categoria-productos">
+        </ul>
+      </div>
+    <main class="almohadones margins" id="products_grid">
+        
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__div__redes">
+            <h3 class="footer__div__redes__titulo">Seguinos en nuestras redes!</h3>
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li><a href="https://www.facebook.com/KaramHechoAMano" target="_blank"><i
+                            class="fa-brands fa-facebook-square"></i></a></li>
+                <li><a href="https://www.instagram.com/karamhechoamano/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a></li>
+
+            </ul>
+        </div>
+        <div class="footer__div__volverArriba">
+            <a href="#" class="footer__div__volverArriba__a">Volver Arriba!</a>
+        </div>
+    </footer>
+
+    <script src="../assets/scripts/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+
+</html>
