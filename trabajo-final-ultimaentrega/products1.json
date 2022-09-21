@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "productName": "Almohadon 1",
+    "medidas": "Medidas 60x60",
+    "price": 10000,
+    "stock": 3,
+    "image": "../assets/multimedia/almohadones/almohadon_caracol_b_b.jpg",
+    "stockAvailability": true,
+    "category": "Almohadon",
+    "oferta": false
+  },
+  {
+    "id": 2,
+    "productName": "Almohadon 2",
+    "medidas": "Medidas 60x60",
+    "price": 10000,
+    "stock": 0,
+    "image":  "../assets/multimedia/almohadones/almohadon_caracol_b_b_flecos.jpg",
+    "stockAvailability": true,
+    "category": "Almohadon",
+    "oferta": false
+  },
+  {
+    "id": 3,
+    "productName": "Almohadon 3",
+    "medidas": "Medidas 60x60",
+    "price": 10000,
+    "stock": 2,
+    "image":  "../assets/multimedia/almohadones/almohadon_caracol_n_n_flecos.jpg",
+    "stockAvailability": true,
+    "category": "Almohadon",
+    "oferta": false
+  },
+  {
+    "id": 4,
+    "productName": "Almohadon 4",
+    "medidas": "Medidas 60x60",
+    "price": 10000,
+    "stock": 3,
+    "image": "../assets/multimedia/almohadones/almohadon_mediapluma_b_b.jpg",
+    "stockAvailability": true,
+    "category": "Almohadon",
+    "oferta": false
+  },
+  {
+    "id": 5,
+    "productName": "Almohadon 5",
+    "medidas": "Medidas 60x60",
+    "price": 10000,
+    "stock": 2,
+    "image":  "../assets/multimedia/almohadones/almohadon_mediapluma_b_b_flecos.jpg",
+    "stockAvailability": true,
+    "category": "Almohadon",
+    "oferta": false
+  },
+  {
+    "id": 6,
+    "productName": "Almohadon 6",
+    "medidas": "Medidas 60x60",
+    "price": 10000,
+    "stock": 3,
+    "image": "../assets/multimedia/almohadones/almohadon_mediapluma_b_n.jpg",
+    "stockAvailability": true,
+    "category": "Almohadon",
+    "oferta": false
+  },
+  {
+    "id": 7,
+    "productName": "Almohadon 7",
+    "medidas": "Medidas 60x60",
+    "price": 10000,
+    "stock": 3,
+    "image": "../assets/multimedia/almohadones/almohadon_mediapluma_n_n.jpg",
+    "stockAvailability": true,
+    "category": "Almohadon",
+    "oferta": false
+  },
+  {
+    "id": 8,
+    "productName": "Almohadon 8",
+    "medidas": "Medidas 60x60",
+    "price": 10000,
+    "stock": 10,
+    "image": "../assets/multimedia/almohadones/almohadon_pluma_b_b_flecos.jpg",
+    "stockAvailability": true,
+    "category": "Almohadon",
+    "oferta": false
+  },
+  {
+    "id": 9,
+    "productName": "Almohadon 9",
+    "medidas": "Medidas 60x60",
+    "price": 10000,
+    "stock": 6,
+    "image": "../assets/multimedia/almohadones/almohadon_pluma_b_n.jpg",
+    "stockAvailability": true,
+    "category": "Almohadon",
+    "oferta": false
+  },
+  {
+    "id": 10,
+    "productName": "Almohadon 10",
+    "medidas": "Medidas 60x60",
+    "price": 10000,
+    "stock": 5,
+    "image": "../assets/multimedia/almohadones/almohadon_pluma_b_n.jpg",
+    "stockAvailability": true,
+    "category": "Almohadon",
+    "oferta": false
+  },
+  {
+    "id": 11,
+    "productName": "Almohadon 11",
+    "medidas": "Medidas 60x60",
+    "price": 10000,
+    "stock": 3,
+    "image": "../assets/multimedia/almohadones/almohadon_pluma_b_n.jpg",
+    "stockAvailability": true,
+    "category": "Almohadon",
+    "oferta": false
+  },
+  {
+    "id": 12,
+    "productName": "Almohadon 12",
+    "medidas": "Medidas 60x60",
+    "price": 10000,
+    "stock": 3,
+    "image": "../assets/multimedia/almohadones/almohadon_pluma_b_n.jpg",
+    "stockAvailability": true,
+    "category": "Almohadon",
+    "oferta": false
+  },
+  {
+    "id": 13,
+    "productName": "Almohadon 13",
+    "medidas": "Medidas 60x60",
+    "price": 10000,
+    "stock": 3,
+    "image": "../assets/multimedia/almohadones/almohadon_pluma_b_n.jpg",
+    "stockAvailability": true,
+    "category": "Almohadon",
+    "oferta": false
+  },
+  {
+    "id": 14,
+    "productName": "Almohadon 14",
+    "medidas": "Medidas 60x60",
+    "price": 10000,
+    "stock": 3,
+    "image": "../assets/multimedia/almohadones/almohadon_pluma_b_n.jpg",
+    "stockAvailability": true,
+    "category": "Almohadon",
+    "oferta": false
+  },
+  {
+    "id": 15,
+    "productName": "Almohadon 15",
+    "medidas": "Medidas 60x60",
+    "price": 10000,
+    "stock": 3,
+    "image": "../assets/multimedia/almohadones/almohadon_pluma_b_n.jpg",
+    "stockAvailability": true,
+    "category": "Almohadon",
+    "oferta": false
+  },
+  {
+    "id": 16,
+    "productName": "Bolso 1",
+    "medidas": "Medidas 60x60",
+    "price": 10000,
+    "stock": 3,
+    "image": "../assets/multimedia/bolsos/bolso__1.jpeg",
+    "stockAvailability": true,
+    "category": "Bolso",
+    "oferta": false
+  },
+  {
+    "id": 17,
+    "productName": "Bolso 2",
+    "medidas": "Medidas 60x60",
+    "price": 10000,
+    "stock": 3,
+    "image": "../assets/multimedia/bolsos/bolso__2.jpeg",
+    "stockAvailability": true,
+    "category": "Bolso",
+    "oferta": false
+  },
+  {
+    "id": 18,
+    "productName": "Bolso 3",
+    "medidas": "Medidas 60x60",
+    "price": 10000,
+    "stock": 3,
+    "image": "../assets/multimedia/bolsos/bolso__3.jpeg",
+    "stockAvailability": true,
+    "category": "Bolso",
+    "oferta": false
+  },
+  {
+    "id": 19,
+    "productName": "Bolso 4",
+    "medidas": "Medidas 60x60",
+    "price": 10000,
+    "stock": 3,
+    "image": "../assets/multimedia/bolsos/bolso__4.jpeg",
+    "stockAvailability": true,
+    "category": "Bolso",
+    "oferta": false
+  },
+  {
+    "id": 20,
+    "productName": "Bolso 5",
+    "medidas": "Medidas 60x60",
+    "price": 10000,
+    "stock": 3,
+    "image": "../assets/multimedia/bolsos/bolso__5.jpeg",
+    "stockAvailability": true,
+    "category": "Bolso",
+    "oferta": false
+  }
+]

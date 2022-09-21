@@ -1,0 +1,101 @@
+/* Corregir clases!! */
+
+.products_grid {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+
+.images {
+    width: 100%;
+    height: 305px;
+    margin:0px;
+    border-radius: 0px;
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.products_grid_item_a {
+    background-image: url("../multimedia/Almohadones.jpg");
+
+}
+
+.products_grid_item_b {
+    background-image: url("../multimedia/Bolsos.jpg");
+
+}
+
+.products_grid_item_c {
+    background-image: url("../multimedia/ropa.jpg");
+
+}
+
+.images__a {
+    opacity: 1;
+    transition: 0.8s;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.743);
+    a{
+        color: black;
+    }
+}
+.images__b {
+    opacity: 1;
+    transition: 0.8s;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.743);
+    a{
+        color: black;
+    }
+}
+.images__c {
+    opacity: 1;
+    transition: 0.8s;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.743);
+    a{
+        color: black;
+    }
+}
+
+.btnGrisResponsive{
+    color: black;
+    background-color: grey !important;
+    font-weight: bolder;
+}
+.btnVerdeResponsive{
+    color: black;
+    background-color:  rgb(186, 212, 203) !important;
+    font-weight: bolder;
+    border-color: transparent;
+}
+
+
+
+
+// .images:hover {
+//     transition: all 0.5s;
+//     transform: scale(1.1);
+//     box-shadow: 0 0 0 500px rgba(0, 0, 0, 0.3) inset;
+// }
+
+// .images p:hover {
+//     opacity: 1;
+// }
+

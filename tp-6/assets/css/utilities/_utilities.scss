@@ -1,0 +1,13 @@
+$background-color1: rgba(255, 255, 255, 0.645);
+$border-radius1: 20px;
+
+@mixin wh-size($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+.container-attributes-1 {
+    background-color: $background-color1;
+    border-radius: $border-radius1;
+}
+

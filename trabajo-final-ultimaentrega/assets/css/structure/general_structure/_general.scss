@@ -1,0 +1,56 @@
+/* General a todos los archivos */
+
+/* General body y otros */
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+/* MUY BUENO!! SIRVE PARA QUE NO HAYA SCROLLBAR HORIZONTAL..
+ME SIRVIO CUANDO TENIA EL PROBLEMA DEL FOOTER.
+
+body{
+    Overflow-x: hidden
+} */
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #4a6581;
+}
+
+
+.margins {
+    margin: 50px 25px 80px 25px;
+}
+
+/* Particular  archivo para PROXIMAMENTE */
+
+.proximamente__main {
+    display: inline;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 500px;
+}
+
+.proximamente__main h1 {
+    text-align: center;
+}
+.proximamente__main {
+    h1{
+        margin:100px
+    }
+}

@@ -1,0 +1,14 @@
+ENTREGA FINAL!
+
+PROFE:
+
+EN ESTA ENTREGA:
+
+- MEJORE LA PASARELA DE PAGOS
+- MEJORE EL ESTILO
+- ES RESPONSIVE
+- AGREGUE FILTROS DENTRO DE CADA SECCION DE PRODUCTOS
+- AGREGUE LA CATEGORIA OFERTAS
+
+
+GITHUB PAGES: https://ignaciorossetto.github.io/coderhouse-javascript/trabajo-final-ultimaentrega/pages/index.html

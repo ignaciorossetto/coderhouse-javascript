@@ -1,0 +1,329 @@
+/* MEDIA PARA CONTACTO */
+
+@media screen and (min-width:456px) and (max-width:725px) {
+
+    .contacto {
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .contacto__flex {
+        flex-direction: column;
+    }
+
+    .contacto__map {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .galeriahome {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .galeriahome_common {
+        height: 300px;
+    }
+
+    .galeriahome_common__text {
+        font-size: 40px;
+    }
+
+    .galeriahome_common__text__comprar {
+        font-size: 20px;
+    }
+
+    .proximamente__main {
+
+        font-size: 25px;
+    }
+
+    #sessionStorage{
+        flex-direction: column;
+
+    }
+
+    #sessionStorageCarritoListaTotal{
+        margin-block-end: 15px;
+
+    }
+
+
+
+}
+
+@media screen and (min-width:290px) and (max-width:455px) {
+
+    .contacto {
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .contacto__flex {
+        flex-direction: column;
+    }
+
+    .contacto__map {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto__map__iframe {
+        width: 100%;
+    }
+
+    .contacto__form__textarea textarea {
+        width: 100%;
+    }
+
+    .header {
+        height: max-content;
+        // background-image: none;
+        margin-bottom: 25px;
+    }
+
+
+    #mainContainer{
+        margin-top: 50px;
+    }
+
+    .filtro-productos{
+        align-self: center;
+
+    }
+
+    #responsive-navbar,
+    .header__mainTitle {
+        display: none;
+    }
+
+    .header__mainTitle__responsive {
+        // background-color: white;
+        border-radius: 0px;
+        font-size: 38px;
+        font-weight: 800;
+        margin-left: 50px;
+        margin-right: 0px;
+        padding: 10px;
+        height: fit-content;
+        letter-spacing: 5px;
+
+    }
+
+    .responsive_header_maintitle_navbar {
+        display: flex;
+        padding-bottom: 10px;
+        padding-top: 10px;
+
+    }
+
+    #responsive-navbar-sm {
+        display: flex;
+
+    }
+
+
+    // .header__nav__menu {
+    //     width: min-content;
+    //     background-color: rgba(255, 255, 255, 0.7);
+    //     border-radius: 30px;
+    //     flex-direction: column;
+    //     align-items: center;
+    // }
+
+    // .header__nav__menu li {
+    //     padding: 5px;
+    //     font-weight: 1000;
+    //     justify-content: center;
+    // }
+
+    .galeriahome {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .galeriahome_common {
+        height: 300px;
+    }
+
+    .galeriahome_common__text {
+        font-size: 30px;
+    }
+
+    .galeriahome_common__text__comprar {
+        font-size: 20px;
+    }
+
+    .proximamente__main {
+
+        font-size: 16px;
+    }
+
+    .datospersonales{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .datospersonalesform{
+        margin-left: 28px;
+
+    }
+
+
+    #sessionStorage{
+        flex-direction: column;
+
+    }
+
+    #sessionStorageCarritoListaTotal{
+        margin-block-end: 15px;
+
+    }
+
+}
+
+
+/* MEDIA FOOTER */
+
+@media screen and (min-width:300px) and (max-width:725px) {
+
+    .footer__div__redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+
+
+    }
+
+    .footer__div__volverArriba {
+        width: 100%;
+        left: 42%;
+    }
+
+    .almohadones {
+        grid-template-columns: 300px;
+        grid-template-rows: repeat(9, 355px);
+        align-self: center;
+
+    }
+
+    .alm .img {
+        margin-bottom: 0px;
+    }
+
+    .alm .info {
+
+        margin-bottom: 30px;
+    }
+
+    .nosotros__main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+
+/* ESPECIALES ALMOHADONES  */
+
+@media screen and (min-width:805px) and (max-width:1234px) {
+
+    .almohadones {
+        grid-template-columns: 400px 400px;
+        grid-template-rows: repeat(5, 485px);
+        align-self: center;
+
+    }
+
+
+}
+
+@media screen and (min-width:725px) and (max-width:804px) {
+
+    .almohadones {
+        grid-template-columns: 300px 300px;
+        grid-template-rows: repeat(5, 355px);
+        align-self: center;
+
+    }
+
+    .alm .info {
+        margin-bottom: 25px;
+    }
+
+    .nosotros__main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proximamente__main {
+
+        font-size: 40px;
+    }
+
+
+}
+
+// MEDIA ESPECIAL PARA HEADER SM
+
+@media screen and (min-width:290px) and (max-width:380px) {
+
+    .header{
+        margin-bottom: 15px;
+    }
+
+    .responsive_header_maintitle_navbar {
+        flex-direction: column;
+
+
+        .header__mainTitle__responsive {
+            padding: 0px;
+            margin: 15px 30px;
+            align-self: center;
+            // background-color: rgba(255, 255, 255, 0.8);
+            padding: 0 100%;
+
+
+        }
+
+        #responsive-navbar-sm {
+            margin: 0px;
+
+            margin-left: 37%;
+
+        }
+    }
+    #responsive-navbar-sm nav div button {
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    #responsive-navbar-sm nav {
+        margin: 0px;
+    }
+
+    #mainContainer{
+        margin-top: 50px;
+    }
+
+    .filtro-productos{
+        align-self: center;
+
+    }
+
+    #sessionStorage{
+        flex-direction: column;
+
+    }
+
+    #sessionStorageCarritoListaTotal{
+        margin-block-end: 15px;
+
+    }
+
+
+}
