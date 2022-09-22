@@ -19,8 +19,6 @@ let params = new URLSearchParams(document.location.search)
 let currentFilter = params.get("category")
 
 
-
-
 const categoryMenuHtml = document.getElementById("categoria-productos");
 const modalBodyHtml = document.getElementById("modalBody");
 const modalBtn = document.getElementById("modalBtn");
@@ -218,8 +216,10 @@ const displayProducts = (category) => {
   const displayedProducts = category === undefined ? products : products.filter((value) => value.category === category)
 
 
+  // ----------------------------------------------------------CONRTOLAR
+
   if(displayedProducts.length===0){
-    document.getElementById('products_grid').style.display = 'flex'
+    document.getElementById('products_grid').style.display = 'grid'
     productGridHtml.innerHTML = `<main class="proximamente__main m-0">
     <h1 class="animate__animated animate__bounce">PROXIMAMENTE</h1>
 </main>`
@@ -239,6 +239,8 @@ const displayProducts = (category) => {
       `
         : `<a style="pointer-events: none" href="javascript:void(0)" id="agregar-item-${product.id}" class="alm__comprar" >Sin Stock</i></a>`;
 
+
+        
     productGridHtml.innerHTML += `<div class="almohadones__${product.id} alm">
       <div class="img alm_position" style="
       background-image: url(${product.image});
@@ -457,6 +459,20 @@ const displayCarrito2 = () => {
   
 };
 
+  
+const displayLoadingSpinner = (bool) => {
+  if(bool === true){
+    productGridHtml.style.display = 'flex'
+    productGridHtml.innerHTML = `
+    <div class="d-flex justify-content-center">
+    <div class="spinner-border" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+    `
+  } 
+}
+
 
 
 // EVENTS
@@ -469,7 +485,10 @@ document.getElementById('sandwichmenu').addEventListener("click", displayCarrito
 
 window.onload = async() =>{
   products = await getProductsFromJson(file)
-  await displayProducts(currentFilter);
+  displayLoadingSpinner(true)
+  setTimeout(()=>{
+    displayProducts(currentFilter)
+  },2000)
 }
 
 
